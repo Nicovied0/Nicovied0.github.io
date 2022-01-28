@@ -1,0 +1,98 @@
+
+/*header */
+.header{
+    height: 100vh;
+}
+.nav_var {
+      height: 150px;
+      
+}
+img.perfil {
+    height: 300px;
+    border-radius: 100%;
+}
+.nav-item {
+    color: #00a1f1;
+    font-size:20px;
+    text-decoration: none;
+}
+
+/*articulo */
+.articulo {
+    min-height: 800px;
+    background-color: #00a1f1;
+   
+}
+.art_import{
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+.art_centro {
+    width: 80%;
+    padding: 30px;
+    margin: auto;
+    
+}
+.texto {
+    width: 80%;
+    margin: 0% auto;
+}
+
+div h3 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 65px;
+    font-weight: bolder;
+    color: #fff;
+}
+
+/* habilidades */
+.contenedor_hab{
+    display: flex;
+    max-width: 90%;
+    margin: 0 auto;
+    flex-wrap: wrap;
+    padding: 50px;
+    align-items: center;
+}
+.box_hab{
+    display: flex;
+    margin: 20px;
+    align-items: center;
+}
+.hab_img{
+    display: flex;
+    align-items: center;
+    width: 200px;
+    height: 200px;
+    flex-direction: column;
+    color: white;
+    font-size: 25px;
+    justify-content: space-between;
+}
+.hab_img img{
+    width: 120px;
+    align-items: center;
+    
+}
+
+
+/* footer */
+footer.container {
+    height: 150px;
+       width:100%;
+
+}
+.cajaFooter {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    
+}
+
+footer .logo_footer {
+    height: 50px;
+    align-items: center;
+    display: flex;
+
+}
