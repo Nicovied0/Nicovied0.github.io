@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Brian Nicolas Oviedo</title>
+    <title>Nicolas Oviedo</title>
     <link rel="icon" href="/img/perfil.png">
 
     <!-- Styles -->
@@ -19,6 +19,8 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200&family=Roboto:wght@100&display=swap"
         rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Roboto:wght@100&display=swap"
+        rel="stylesheet">
 
 </head>
 
@@ -27,47 +29,50 @@
         <nav class="nav_var">
             <ul class="nav justify-content-center">
                 <li class="nav-item">
-                    <a class="nav-link btn-outline-primary" href="#">SOBRE MI</a>
+                    <a class="nav-link btn-outline-primary" href=#sobreMi>SOBRE MI</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link btn-outline-primary " href="#">HABILIDADES</a>
+                    <a class="nav-link btn-outline-primary " href=#habilidades>HABILIDADES</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link btn-outline-primary" href="#">PROYECTOS</a>
+                    <a class="nav-link btn-outline-primary" href=#proyectos>PROYECTOS</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link btn-outline-primary" href="#">CONTACTO</a>
+                    <a class="nav-link btn-outline-primary" href=#contacto>CONTACTO</a>
                 </li>
             </ul>
         </nav>
         <div class="inicio">
-            <h2>Soy Nicolas Oviedo</h2>
-            <h2>Frontend Developer</h2>
-            <div>
-                <img src="/img/GitHub.png" class="logo_footer">
-                <img src="/img/linkedin.png" class="logo_footer">
-                <img src="/img/wsp.png" class="log_footer">
+
+            <img src="/img/perfil.png" alt="porfile" class="perfil">
+            <h2 class="nombre">Soy Nicolas Oviedo</h2>
+            <h2 class="front">Frontend Developer</h2>
+            <div class="head_li">
+                <a target="_blank" href="https://github.com/Nicovied0"><img src="/img/GitHub.png"
+                        class="head_links"></a>
+                <a target="_blank" href="https://www.linkedin.com/in/brian-nicol%C3%A1s-oviedo-0989241bb/"><img
+                        src="/img/linkedin.png" class="head_links"></a>
+                <a target="_blank" href="https://wa.link/q9plu2"><img src="/img/wsp.png" class="head_links"></a>
             </div>
         </div>
-        <div>
-            <img src="/img/perfil.png" alt="porfile" class="perfil">
-        </div>
+
 
     </header>
     <article class="articulo">
         <div class="art_centro">
             <div class="art_import">
-                <h3>SOBRE MI</h3>
-                <p class="texto">Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat doloribus labore
-                    accusantium minus. Quaerat vero veniam laboriosam odit, ducimus sit nulla at exercitationem
-                    blanditiis odio porro fuga dignissimos aut dolor.</p>
-                <p class="texto">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quas magni cum debitis
-                    provident, natus quidem harum non recusandae molestiae atque pariatur voluptatum, excepturi ducimus
-                    adipisci, iste quisquam ad vero dolores.</p>
+                <h3 id="sobreMi">SOBRE MI</h3>
+                <p class="texto">Soy desarrollador web especializado en Front End, me gusta realizar diseños simples y
+                    modernos. Me caracterizo por ser una persona autodidacta, siempre intentando aprender nuevas
+                    tecnologías y herramientas.
+
+                </p>
+                <p class="texto">Actualmente estoy buscando trabajar de lo que me apasiona, en un lugar que me permita
+                    seguir aprendiendo y screcer personalmete. Esforzandome en cumplir todas mi metas y objetivos.</p>
 
             </div>
             <div class="art_import">
-                <h3>HABILIDADES</h3>
+                <h3 id="habilidades">HABILIDADES</h3>
                 <div class="contenedor_hab">
 
                     <div class="box_hab">
@@ -124,13 +129,42 @@
                 </div>
             </div>
             <div>
-                <h3>PROYECTOS</h3>
-
+                <h3 id="proyectos">PROYECTOS</h3>
+                <div>
+                    <div class="div_proyectos">
+                        <img src="/img/TiendaVirtual.png" class="img_proyectos">
+                        <label>TIENDA VIRTUAL</label>
+                    </div>
+                    <div class="div_proyectos">
+                        <img src="/img/Pokedex.png" class="img_proyectos">
+                        <label>POKEDEX</label>
+                    </div>
+                    <div class="div_proyectos">
+                        <img src="/img/VentaDeServicios.png" class="img_proyectos">
+                        <label>VENTA DE SERVICIOS</label>
+                    </div>
+                </div>
             </div>
             <div>
-                <h3>CONTACTO</h3>
+                <h3 id="contacto">CONTACTO</h3>
                 <form>
-
+                    <form class="form">
+                        <div>
+                            <label>CONTÁCTAME</label>
+                        </div>
+                        <div>
+                            <input type="text" name="user_name" placeholder="Tu nombre" required="">
+                        </div>
+                        <div>
+                            <input type="email" name="user_email" placeholder="Correo Electrónico" required="">
+                        </div>
+                        <div>
+                            <textarea name="message" placeholder="mensaje" required=""></textarea>
+                        </div>
+                        <div>
+                            <button type="submit">ENVIAR MENSAJE</button>
+                        </div>
+                    </form>
                 </form>
             </div>
         </div>
@@ -142,7 +176,8 @@
         <div class="cajaFooter">
             <a href="#"><img src="/img/gmail.png" class="logo_footer"></a>
             <a href="https://github.com/Nicovied0"><img src="/img/GitHub.png" class="logo_footer"></a>
-            <a href="https://www.linkedin.com/in/brian-nicol%C3%A1s-oviedo-0989241bb/"><img src="/img/linkedin.png" class="logo_footer"></a>
+            <a href="https://www.linkedin.com/in/brian-nicol%C3%A1s-oviedo-0989241bb/"><img src="/img/linkedin.png"
+                    class="logo_footer"></a>
             <a href="https://wa.link/q9plu2"><img src="/img/wsp.png" class="logo_footer"></a>
         </div>
     </footer>
