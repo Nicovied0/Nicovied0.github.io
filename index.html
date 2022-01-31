@@ -21,6 +21,7 @@
         rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Roboto:wght@100&display=swap"
         rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Shadows+Into+Light+Two&display=swap" rel="stylesheet">
 
 </head>
 
@@ -123,48 +124,47 @@
                             <span>GITHUB</span>
                         </div>
                     </div>
-
-
-
                 </div>
             </div>
             <div>
                 <h3 id="proyectos">PROYECTOS</h3>
-                <div>
+                <div class="caja_proyectos">
                     <div class="div_proyectos">
-                        <img src="/img/TiendaVirtual.png" class="img_proyectos">
-                        <label>TIENDA VIRTUAL</label>
+                        <div class="div_proyectos_2">
+                            <img src="/img/TiendaVirtual.png" class="img_proyectos">
+                            <label class="proyecto_text">TIENDA VIRTUAL</label>
+                        </div>
                     </div>
                     <div class="div_proyectos">
-                        <img src="/img/Pokedex.png" class="img_proyectos">
-                        <label>POKEDEX</label>
+                        <div class="div_proyectos_2">
+                            <img src="/img/Pokedex.png" class="img_proyectos">
+                            <label class="proyecto_text">POKEDEX</label>
+                        </div>
                     </div>
                     <div class="div_proyectos">
-                        <img src="/img/VentaDeServicios.png" class="img_proyectos">
-                        <label>VENTA DE SERVICIOS</label>
+                        <div class="div_proyectos_2">
+                            <img src="/img/VentaDeServicios.png" class="img_proyectos">
+                            <label class="proyecto_text">VENTA DE SERVICIOS</label>
+                        </div>
                     </div>
                 </div>
             </div>
-            <div>
+            <div form>
                 <h3 id="contacto">CONTACTO</h3>
-                <form>
-                    <form class="form">
-                        <div>
-                            <label>CONTÁCTAME</label>
-                        </div>
-                        <div>
-                            <input type="text" name="user_name" placeholder="Tu nombre" required="">
-                        </div>
-                        <div>
-                            <input type="email" name="user_email" placeholder="Correo Electrónico" required="">
-                        </div>
-                        <div>
-                            <textarea name="message" placeholder="mensaje" required=""></textarea>
-                        </div>
-                        <div>
-                            <button type="submit">ENVIAR MENSAJE</button>
-                        </div>
-                    </form>
+                <form class="form">
+                    <div class="div_label">
+                        <label>CONTÁCTO</label>
+                    </div>
+                    <div class="div_input">
+                        <input class="form-control mb-3 inputs" type="text" name="user_name" placeholder="Tu nombre" required="">
+                        <input class="form-control mb-3 inputs" type="email" name="user_email" placeholder="Correo Electrónico" required="">
+                    </div>
+                    <div class="div_text">
+                        <textarea class="form-control mb-3 textarea" name="message" placeholder="mensaje" required=""></textarea>
+                    </div>
+                    <div class="div_button">
+                        <button type="submit" class="btn btn-primary">ENVIAR MENSAJE</button>
+                    </div>
                 </form>
             </div>
         </div>

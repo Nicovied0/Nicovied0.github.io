@@ -54,7 +54,8 @@ img.perfil:hover {
 /*articulo */
 .articulo {
     min-height: 800px;
-    background-color: #00a1f1;
+    background: rgb(0,161,241);
+background: linear-gradient(180deg, rgba(0,161,241,1) 89%, rgba(255,255,255,1) 100%);;
    
 }
 .art_import{
@@ -117,16 +118,74 @@ div h3 {
     
 }
 /* proyectos */ 
-
+.div_proyectos{
+    position: relative;
+}
+.div_proyectos_2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px;
+    margin: 20px;
+}
+.div_proyectos_2:hover{
+    transform: scale(1.10);
+    transition: .3s;
+    transition-delay: 0s;
+    opacity: 0.3;
+    z-index: 20;
+    
+}
 .img_proyectos {
     width: 80%;
+    
+}
+.proyecto_text {
+    color: white;
+    font-size: 2rem;
 }
 
+.proyecto_text_prox{
+    display: flex;
+    position: relative;
+    justify-content: center;
+    font-size: 5rem ;
+    color: red;
+    font-weight: bolder;
+    transform: rotate(-10deg);
+    font-family: 'Shadows Into Light Two', cursive;
+}
+/* form */ 
+.form {
+    width: 75%;
+    margin: 0 auto;
+}
+
+.div_input {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 20px;
+}
+input.inputs {
+    width: 45%;
+    margin: 0 auto;
+
+}
+textarea.textarea{
+    height: 200px;
+    margin: 0 auto;
+    width: 90%;
+}
+.div_button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 
 /* footer */
 footer.container {
-    height: 150px;
-       width:100%;
+    height: 100px;
+    width:100%;
 
 }
 .cajaFooter {
