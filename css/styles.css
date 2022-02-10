@@ -50,6 +50,12 @@ img.perfil:hover {
     height: 50px;
     display: flex;
 }
+.up {
+    height: 50px;
+    position: fixed;
+    top: 90%;
+    left: 90%;
+}
 
 /*articulo */
 .articulo {
