@@ -1,5 +1,8 @@
 
 /*header */
+.nav_var_res{
+    display: none;
+}
 .header{
     height: 100vh;
 }
@@ -8,7 +11,7 @@
       
 }
 img.perfil {
-    height: 300px;
+    height: 25rem;
     border-radius: 100%;
     margin-right: 40px;
     float: right;
@@ -31,12 +34,12 @@ img.perfil:hover {
     font-family: 'Montserrat', sans-serif;
     font-weight: bolder;
     color: #00a1f1;
-    font-size: 65px;
+    font-size:5rem;
 }
 .front {
     font-family: 'Montserrat', sans-serif;
     font-weight: bolder;
-    font-size:80px;
+    font-size:4rem;
 }
 .head_li {
     margin: 40px;
@@ -207,4 +210,60 @@ footer .logo_footer {
     align-items: center;
     display: flex;
 
+}
+
+/* Media Query for Mobile Devices */
+@media (max-width: 480px) {
+    .header{
+        height: 75vh;
+    }
+    .nav_var {
+        display: none;
+    }
+    .perfil{
+        display: none;
+    }
+    .nombre{
+        font-size: 3rem;
+        margin-top: 5rem;
+    }
+    .front{
+        margin: 3rem 0 10rem 0;
+        font-size: 2.5rem;
+    }
+    .head_li{
+        margin: 0 auto;
+        width: 80%;
+        height: 20rem;
+    }
+    .art_centro{
+        width: 100%;
+    }
+
+}
+  
+/* Media Query for low resolution  Tablets, Ipads */
+@media (min-width: 481px) and (max-width: 767px) {
+    body {
+        background: yellow;
+    }
+}
+  
+/* Media Query for Tablets Ipads portrait mode */
+@media (min-width: 768px) and (max-width: 1024px){
+
+}
+  
+/* Media Query for Laptops and Desktops */
+@media (min-width: 1025px) and (max-width: 1280px){
+    body {
+        background: green;
+    }
+}
+  
+/* Media Query for Large screens */
+@media (min-width: 1281px) {
+    body {
+        background: white;
+    }
 }
