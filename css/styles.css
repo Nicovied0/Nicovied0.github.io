@@ -291,8 +291,8 @@ footer .logo_footer {
 @media (min-width: 481px) and (max-width: 767px) {
     
     .hab_img{
-        width: 120px;
-        margin: 0px 0px;
+        width: 110px;
+        margin: 0px 1px;
     }
 }
   
