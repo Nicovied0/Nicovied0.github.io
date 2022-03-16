@@ -289,9 +289,10 @@ footer .logo_footer {
   
 /* Media Query for low resolution  Tablets, Ipads */
 @media (min-width: 481px) and (max-width: 767px) {
-    body {
-        background: red;
-
+    
+    .hab_img{
+        width: 120px;
+        margin: 0px 10px;
     }
 }
   
