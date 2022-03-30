@@ -288,11 +288,14 @@ footer .logo_footer {
     }
   
 /* Media Query for low resolution  Tablets, Ipads */
-@media (min-width: 481px) and (max-width: 767px) {
-    
+
+
+@media (max-width: 767px) {
     .hab_img{
-        width: 110px;
         margin: 0px 1px;
+    }
+    .contenedor_hab {
+        justify-content:space-around;
     }
 }
   
